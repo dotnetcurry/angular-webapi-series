@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjectTrackingDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="int" Nullable="false" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Designation" Type="nvarchar" MaxLength="100" />
+    <Property Name="ManagerID" Type="int" />
+    <Property Name="ContactNo" Type="nvarchar" MaxLength="15" />
+    <Property Name="EMailID" Type="nvarchar" MaxLength="30" />
+    <Property Name="SkillSets" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ManagerComments">
+    <Key>
+      <PropertyRef Name="ManagerCommentID" />
+    </Key>
+    <Property Name="ManagerCommentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Comments" Type="nvarchar" MaxLength="2000" />
+    <Property Name="ProjectTaskID" Type="int" />
+  </EntityType>
+  <EntityType Name="Projects">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectName" Type="nvarchar" MaxLength="100" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="EndDate" Type="datetime" />
+    <Property Name="ClientName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ProjectTasks">
+    <Key>
+      <PropertyRef Name="ProjectTaskID" />
+    </Key>
+    <Property Name="ProjectTaskID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AssignedTo" Type="int" />
+    <Property Name="TaskStartDate" Type="datetime" />
+    <Property Name="TaskEndDate" Type="datetime" />
+    <Property Name="TaskCompletion" Type="int" />
+    <Property Name="UserStoryID" Type="int" />
+  </EntityType>
+  <EntityType Name="UserStories">
+    <Key>
+      <PropertyRef Name="UserStoryID" />
+    </Key>
+    <Property Name="UserStoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Story" Type="nvarchar" MaxLength="4000" />
+    <Property Name="ProjectID" Type="int" />
+  </EntityType>
+  <Association Name="FK__ManagerCo__Proje__1B0907CE">
+    <End Role="ProjectTasks" Type="Self.ProjectTasks" Multiplicity="0..1" />
+    <End Role="ManagerComments" Type="Self.ManagerComments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProjectTasks">
+        <PropertyRef Name="ProjectTaskID" />
+      </Principal>
+      <Dependent Role="ManagerComments">
+        <PropertyRef Name="ProjectTaskID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProjectTa__Assig__173876EA">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="ProjectTasks" Type="Self.ProjectTasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="ProjectTasks">
+        <PropertyRef Name="AssignedTo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProjectTa__UserS__182C9B23">
+    <End Role="UserStories" Type="Self.UserStories" Multiplicity="0..1" />
+    <End Role="ProjectTasks" Type="Self.ProjectTasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserStories">
+        <PropertyRef Name="UserStoryID" />
+      </Principal>
+      <Dependent Role="ProjectTasks">
+        <PropertyRef Name="UserStoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserStori__Proje__145C0A3F">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="0..1" />
+    <End Role="UserStories" Type="Self.UserStories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="ProjectID" />
+      </Principal>
+      <Dependent Role="UserStories">
+        <PropertyRef Name="ProjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjectTrackingDBModelStoreContainer">
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ManagerComments" EntityType="Self.ManagerComments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Projects" EntityType="Self.Projects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProjectTasks" EntityType="Self.ProjectTasks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserStories" EntityType="Self.UserStories" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__ManagerCo__Proje__1B0907CE" Association="Self.FK__ManagerCo__Proje__1B0907CE">
+      <End Role="ProjectTasks" EntitySet="ProjectTasks" />
+      <End Role="ManagerComments" EntitySet="ManagerComments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProjectTa__Assig__173876EA" Association="Self.FK__ProjectTa__Assig__173876EA">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="ProjectTasks" EntitySet="ProjectTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProjectTa__UserS__182C9B23" Association="Self.FK__ProjectTa__UserS__182C9B23">
+      <End Role="UserStories" EntitySet="UserStories" />
+      <End Role="ProjectTasks" EntitySet="ProjectTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserStori__Proje__145C0A3F" Association="Self.FK__UserStori__Proje__145C0A3F">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="UserStories" EntitySet="UserStories" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

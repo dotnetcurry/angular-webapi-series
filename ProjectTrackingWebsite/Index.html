@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="CSS/amelia.bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/Site.css" rel="stylesheet" />
+
+    <script src="Scripts/jquery-2.1.0.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+    <script>
+        angular.module('sample', ['ngRoute','ui.bootstrap'])
+        .controller('CarouselCtrl', function ($scope) {
+            $scope.myInterval = 5000;
+            var slides = $scope.slides = [];
+            $scope.addSlide = function () {
+                var newWidth = 600 + slides.length + 1;
+                slides.push({
+                    image: 'http://placekitten.com/' + newWidth + '/300',
+                    text: ['More', 'Extra', 'Lots of', 'Surplus'][slides.length % 4] + ' ' +
+                      ['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 4]
+                });
+            };
+            for (var i = 0; i < 4; i++) {
+                $scope.addSlide();
+            }
+
+            $scope.appSlides = [
+            {
+                header: "Manage Your Projects !!",
+                body: "This site is used for managing projects. A single Tool to manage your project!!",
+                button: "More Details"
+            },
+            {
+                header: "Add User Stories !!",
+                body: "You can add different user stories as a Business Administrators. Your Stories will be form your project tasks.",
+                button: "User Stories"
+            },
+            {
+                header: "Manager Comments !!",
+                body: "Manager can add comments for the tasks which are going on under your project!!",
+                button: "Manager Comments"
+            },
+            {
+                header: "Employees List !!",
+                body: "You can see all the employees details with their skill sets to assign the appropriate tasks and do efficient project management.",
+                button: "Let Me Try !!"
+            }
+            ];
+        });
+    </script>
+</head>
+<body ng-app="sample" ng-controller="CarouselCtrl">
+    <div style="height: 305px">
+        <carousel>
+            <slide ng-repeat="slide in slides" active="slide.active">
+                <img ng-src="{{slide.image}}" style="margin:auto;">
+                <div class="carousel-caption">
+                    <h4>Slide {{$index}}</h4>
+                    <p>{{slide.text}}</p>
+                </div>
+            </slide>
+        </carousel>
+        <br />
+        <br />
+        <carousel>
+            <slide ng-repeat="slide in appSlides" active="slide.active">
+                <h2>{{slide.header}}</h2>
+                <p>{{slide.body}}</p>
+                <br />
+                <br />
+                <p style="text-align: right"><a class="btn btn-primary">{{slide.button}}</a></p>
+            </slide>
+        </carousel>
+    </div>
+</body>
+</html>

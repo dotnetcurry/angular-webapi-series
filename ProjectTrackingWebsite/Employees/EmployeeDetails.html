@@ -1,0 +1,72 @@
+﻿
+<h1>{{Title}}</h1>
+<hr />
+<a href="#NewEmployee" class="btn btn-primary">Add New Employee</a>
+<hr />
+<form name="searchEmployeeForm" ng-submit="searchEmployees(employeeName)">
+    <table>
+        <tr>
+            <td>Enter Employee Name Or Character To Search - </td>
+            <td><input type="text" required placeholder="Enter Employee Name" ng-model="employeeName" class="form-control" style="width:300px" /></td>
+            <td><input type="submit" value="Search Employee" class="btn btn-primary" /></td>
+        </tr>
+    </table>
+</form>
+<table class="table table-striped table-hover" ng-show="Employees">
+    <thead>
+        <tr class="info">
+            <td>
+                Employee ID
+            </td>
+            <td>
+                Employee Name
+            </td>
+            <td>
+                Designation
+            </td>
+            <td>
+                Contact No.
+            </td>
+            <td>
+                EMailID
+            </td>
+            <td>
+                Skill Sets
+            </td>
+            <td>
+                Modify Employee
+            </td>
+            <td>
+                Delete Employee
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="success" ng-repeat="emp in Employees | limitTo:10 | orderBy:'-employeeName'">
+            <td>
+                {{emp.employeeID}}
+            </td>
+            <td>
+                {{emp.employeeName}}
+            </td>
+            <td>
+                {{emp.designation}}
+            </td>
+            <td>
+                {{emp.contactNo}}
+            </td>
+            <td>
+                {{emp.eMailID}}
+            </td>
+            <td>
+                {{emp.skillSets}}
+            </td>
+            <td>
+                <a href="#ModifyEmployee/{{emp.employeeID}}" class="btn btn-info">Modify</a>
+            </td>
+            <td>
+                <a href="#Employees" class="btn btn-info">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

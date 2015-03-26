@@ -1,0 +1,23 @@
+﻿<form class="form-horizontal">
+    <fieldset>
+        <legend>Insert New User Story</legend>
+        <div class="form-group">
+            <label for="userStory" class="col-lg-2 control-label">Enter User Story</label>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" ng-model="userStory.story" placeholder="Enter Requirement">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="projectID" class="col-lg-2 control-label">Project ID</label>
+            <div class="col-lg-10">
+                <input type="text" readonly class="form-control" ng-model="userStory.projectID">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <a href="#UserStories" class="btn btn-default">Cancel</a>
+                <a href="#UserStories" class="btn btn-primary">Save User Story</a>
+            </div>
+        </div>
+    </fieldset>
+</form>

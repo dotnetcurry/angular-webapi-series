@@ -1,0 +1,41 @@
+﻿<form class="form-horizontal" name="insertEmployeeForm">
+    <fieldset>
+        <legend>Modify Task</legend>
+        <div class="form-group">
+            <label for="EmployeeID" class="col-lg-2 control-label">Task Assigned To</label>
+            <div class="col-lg-10">
+                <input type="text" required class="form-control" ng-model="task.assignedTo" placeholder="Enter Employee ID to whome the task is assigned">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="startDate" class="col-lg-2 control-label">Start Date</label>
+            <div class="col-lg-10">
+                <input type="date" required class="form-control" ng-model="task.taskStartDate">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="endDate" class="col-lg-2 control-label">End Date</label>
+            <div class="col-lg-10">
+                <input type="date" required class="form-control" ng-model="task.taskEndDate">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="taskCompletion" class="col-lg-2 control-label">Task Completion in [%]</label>
+            <div class="col-lg-10">
+                <input type="number" class="form-control" ng-model="task.taskCompletion" placeholder="Task Completion in %">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="userStory" class="col-lg-2 control-label">User Story</label>
+            <div class="col-lg-10">
+                <input type="text" readonly class="form-control" ng-model="task.userStory" placeholder="Task Completion in %">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <a href="#Tasks" class="btn btn-default">Cancel</a>
+                <a href="#Tasks" class="btn btn-primary">Modify Task</a>
+            </div>
+        </div>
+    </fieldset>
+</form>

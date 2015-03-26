@@ -1,0 +1,38 @@
+﻿<h1>{{Title}}</h1>
+<hr />
+<a href="#NewComment" class="btn btn-primary">Add New Comment</a>
+<hr />
+<table class="table table-striped table-hover">
+    <thead>
+        <tr class="info">
+            <td>
+                Comment ID
+            </td>
+            <td>
+                Comments
+            </td>
+            <td>
+                Modify Comment
+            </td>
+            <td>
+                Delete Comment
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="success" ng-repeat="comment in Comments">
+            <td>
+                {{comment.managerCommentID}}
+            </td>
+            <td>
+                {{comment.comments}}
+            </td>
+            <td>
+                <a href="#ModifyComment/{{comment.managerCommentID}}" class="btn btn-info">Modify</a>
+            </td>
+            <td>
+                <a href="#Comments" class="btn btn-info">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

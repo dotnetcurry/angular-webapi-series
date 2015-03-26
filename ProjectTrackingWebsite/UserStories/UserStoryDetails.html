@@ -1,0 +1,32 @@
+﻿<h1>{{Title}}</h1>
+<hr />
+<a href="#NewUserStory" class="btn btn-primary">Add New User Story</a>
+<hr />
+<table class="table table-striped table-hover">
+    <thead>
+        <tr class="info">
+            <td>
+                User Story ID
+            </td>
+            <td>
+                User Story
+            </td>
+            <td>
+                Project ID
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="success" ng-repeat="userStory in Stories">
+            <td>
+                {{userStory.userStoryID}}
+            </td>
+            <td>
+                {{userStory.story}}
+            </td>
+            <td>
+                {{userStory.projectID}}
+            </td>
+        </tr>
+    </tbody>
+</table>

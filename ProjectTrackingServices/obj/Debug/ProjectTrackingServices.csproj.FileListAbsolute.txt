@@ -1,0 +1,117 @@
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\ProjectTrackingServices.dll.config
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\ProjectTrackingServices.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\ProjectTrackingServices.pdb
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\Antlr3.Runtime.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.SqlServer.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\Microsoft.Web.Infrastructure.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\Newtonsoft.Json.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Net.Http.Formatting.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Cors.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Helpers.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.Cors.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.WebHost.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Mvc.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Optimization.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Razor.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Deployment.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Razor.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\WebGrease.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.SqlServer.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Net.Http.Formatting.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.Cors.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.WebHost.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\Newtonsoft.Json.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Helpers.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Mvc.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Optimization.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Razor.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Deployment.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Razor.xml
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\bin\Antlr3.Runtime.pdb
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\obj\Debug\ProjectTrackingServices.csprojResolveAssemblyReference.cache
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\obj\Debug\ProjectTrackingServices.dll
+E:\TEST\Articles\2014\AngularJSPOC\ProjectTrackingWebsite\ProjectTrackingServices\obj\Debug\ProjectTrackingServices.pdb
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\ProjectTrackingServices.dll.config
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\ProjectTrackingServices.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\ProjectTrackingServices.pdb
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\Antlr3.Runtime.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.SqlServer.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\Newtonsoft.Json.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Net.Http.Formatting.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Cors.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Helpers.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.Cors.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.WebHost.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Mvc.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Optimization.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Razor.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\WebGrease.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.SqlServer.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Net.Http.Formatting.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.Cors.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.WebHost.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\Newtonsoft.Json.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Helpers.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Mvc.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Optimization.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Razor.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\Antlr3.Runtime.pdb
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\obj\Debug\ProjectTrackingServices.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\obj\Debug\ProjectTrackingServices.dll
+C:\Users\Ravi\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\obj\Debug\ProjectTrackingServices.pdb
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\ProjectTrackingServices.dll.config
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\ProjectTrackingServices.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\ProjectTrackingServices.pdb
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\Antlr3.Runtime.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.SqlServer.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\Newtonsoft.Json.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Net.Http.Formatting.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Cors.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Helpers.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.Cors.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.WebHost.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Mvc.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Optimization.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Razor.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Deployment.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Razor.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\WebGrease.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\EntityFramework.SqlServer.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Net.Http.Formatting.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.Cors.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Http.WebHost.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\Newtonsoft.Json.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Helpers.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Mvc.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Optimization.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.Razor.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Deployment.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\System.Web.WebPages.Razor.xml
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\bin\Antlr3.Runtime.pdb
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\obj\Debug\ProjectTrackingServices.csprojResolveAssemblyReference.cache
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\obj\Debug\ProjectTrackingServices.dll
+D:\Dropbox\Dropbox\Ravi\Articles for Review\To Be Reviewed\Angular Series\Code\ProjectTrackingWebsite\ProjectTrackingServices\obj\Debug\ProjectTrackingServices.pdb

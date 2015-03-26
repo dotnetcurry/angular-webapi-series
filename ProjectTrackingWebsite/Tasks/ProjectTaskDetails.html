@@ -1,0 +1,38 @@
+﻿<h1>{{Title}}</h1>
+<hr />
+<a href="#NewTask" class="btn btn-primary">Add New Task</a>
+<hr />
+<table class="table table-striped table-hover">
+    <thead>
+        <tr class="info">
+            <td>
+                Project Task ID
+            </td>
+            <td>
+                Start Date
+            </td>
+            <td>
+                End Date
+            </td>
+            <td>
+                Task Completion (%)
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="success" ng-repeat="task in Tasks">
+            <td>
+                {{task.projectTaskID}}
+            </td>
+            <td>
+                {{task.taskStartDate}}
+            </td>
+            <td>
+                {{task.taskEndDate}}
+            </td>
+            <td>
+                {{task.taskCompletion}} &nbsp;%
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,56 @@
+﻿<h1>{{Title}}</h1>
+<hr />
+<a href="#NewProject" class="btn btn-primary">Add New Project</a>
+<hr />
+<table class="table table-striped table-hover">
+    <thead>
+        <tr class="info">
+            <td>
+                Project ID
+            </td>
+            <td>
+                Project Name
+            </td>
+            <td>
+                Start Date
+            </td>
+            <td>
+                End Date
+            </td>
+            <td>
+                Client Name
+            </td>
+            <td>
+                Modify Project
+            </td>
+            <td>
+                Delete Project
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="success" ng-repeat="proj in Projects">
+            <td>
+                {{proj.projectID}}
+            </td>
+            <td>
+                {{proj.projectName}}
+            </td>
+            <td>
+                {{proj.startDate | date:'mediumDate'}}
+            </td>
+            <td>
+                {{proj.endDate | date:'mediumDate'}}
+            </td>
+            <td>
+                {{proj.clientName}}
+            </td>
+            <td>
+                <a href="#ModifyProject/{{proj.projectID}}" class="btn btn-info">Modify</a>
+            </td>
+            <td>
+                <a href="#Projects" ng-click="deleteProject(proj)" class="btn btn-info">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
